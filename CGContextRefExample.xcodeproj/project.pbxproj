@@ -14,6 +14,7 @@
 		84B9E4741AE5E2E30073B358 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84B9E4731AE5E2E30073B358 /* Images.xcassets */; };
 		84B9E4771AE5E2E30073B358 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84B9E4751AE5E2E30073B358 /* LaunchScreen.xib */; };
 		84B9E4831AE5E2E30073B358 /* CGContextRefExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B9E4821AE5E2E30073B358 /* CGContextRefExampleTests.m */; };
+		84B9E48E1AE643230073B358 /* CGContextRefExView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B9E48D1AE643230073B358 /* CGContextRefExView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		84B9E47C1AE5E2E30073B358 /* CGContextRefExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CGContextRefExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84B9E4811AE5E2E30073B358 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84B9E4821AE5E2E30073B358 /* CGContextRefExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CGContextRefExampleTests.m; sourceTree = "<group>"; };
+		84B9E48C1AE643230073B358 /* CGContextRefExView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGContextRefExView.h; sourceTree = "<group>"; };
+		84B9E48D1AE643230073B358 /* CGContextRefExView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGContextRefExView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				84B9E4731AE5E2E30073B358 /* Images.xcassets */,
 				84B9E4751AE5E2E30073B358 /* LaunchScreen.xib */,
 				84B9E4661AE5E2E30073B358 /* Supporting Files */,
+				84B9E48C1AE643230073B358 /* CGContextRefExView.h */,
+				84B9E48D1AE643230073B358 /* CGContextRefExView.m */,
 			);
 			path = CGContextRefExample;
 			sourceTree = "<group>";
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84B9E48E1AE643230073B358 /* CGContextRefExView.m in Sources */,
 				84B9E46F1AE5E2E30073B358 /* ViewController.m in Sources */,
 				84B9E46C1AE5E2E30073B358 /* AppDelegate.m in Sources */,
 				84B9E4691AE5E2E30073B358 /* main.m in Sources */,

@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CGContextRefExView.h"
 
 @interface ViewController : UIViewController
 
+
+@property (nonatomic, weak) IBOutlet CGContextRefExView *exampleView;
 
 @end
 
